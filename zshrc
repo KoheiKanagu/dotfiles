@@ -15,7 +15,8 @@ export PATH="$PATH:/usr/local/Cellar/flutter/bin"
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 export PATH="$PATH:/Users/novarsinc/Library/Android/sdk/platform-tools"
-
+export LDFLAGS="-L/usr/local/opt/libffi/lib"
+  
 #peco
 function peco-history-selection() {
     BUFFER=$(history 1 | sort -k1,1nr | perl -ne 'BEGIN { my @lines = (); } s/^\s*\d+\*?\s*//; $in=$_; if (!(grep {$in eq $_} @lines)) { push(@lines, $in); print $in; }' | peco --query "$LBUFFER")
