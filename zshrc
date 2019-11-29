@@ -16,6 +16,10 @@ export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 export PATH="$PATH:/Users/novarsinc/Library/Android/sdk/platform-tools"
 export LDFLAGS="-L/usr/local/opt/libffi/lib"
+export PATH="$HOME/.fastlane/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/icu4c/lib"
+export CPPFLAGS="-I/usr/local/opt/icu4c/include" 
+export PATH="$PATH":"/usr/local/Cellar/flutter/.pub-cache/bin" 
   
 #peco
 function peco-history-selection() {
