@@ -20,6 +20,7 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/icu4c/lib"
 export CPPFLAGS="-I/usr/local/opt/icu4c/include" 
 export PATH="$PATH":"/usr/local/Cellar/flutter/.pub-cache/bin" 
+export PATH="$PATH":"/usr/local/Cellar/flutter/bin/cache/dart-sdk/bin" 
   
 #peco
 function peco-history-selection() {
