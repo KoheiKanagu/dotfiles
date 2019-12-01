@@ -5,6 +5,7 @@ tap homebrew/core
 brew carthage
 brew cocoapods
 brew gradle
+brew jenv
 brew jq
 brew mas
 brew nvm
