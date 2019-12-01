@@ -14,8 +14,6 @@ brew python
 brew shfmt
 brew wget
 
-tap homebrew/bundle
-
 tap homebrew/cask-versions
 cask 1password6
 
@@ -36,8 +34,6 @@ brew brew-rmtree
 
 tap code-hex/pget
 brew pget
-
-tap dart-lang/dart
 
 tap rcmdnk/file
 brew brew-file
