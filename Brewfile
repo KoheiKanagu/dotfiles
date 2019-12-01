@@ -13,6 +13,7 @@ brew pipenv
 brew python
 brew shfmt
 brew wget
+brew zplug
 
 tap homebrew/cask-versions
 cask 1password6
