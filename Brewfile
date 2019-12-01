@@ -4,24 +4,15 @@
 tap homebrew/core
 brew carthage
 brew cocoapods
-brew gdbm
-brew gettext
 brew gradle
 brew jq
-brew libidn2
-brew libunistring
 brew mas
 brew nvm
-brew oniguruma
-brew openssl@1.1
 brew peco
 brew pipenv
 brew python
-brew readline
 brew shfmt
-brew sqlite
 brew wget
-brew xz
 
 tap homebrew/bundle
 
