@@ -5,10 +5,10 @@ tap homebrew/core
 brew carthage
 brew cocoapods
 brew gradle
-brew jenv
 brew jq
 brew mas
 brew nvm
+brew openjdk@11
 brew peco
 brew pipenv
 brew python

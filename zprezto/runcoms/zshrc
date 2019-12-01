@@ -50,11 +50,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # Java
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-
 JAVA_HOME=`/usr/libexec/java_home -v "11"`
 export PATH=${JAVA_HOME}/bin:${PATH}
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
 
 # homebrew
 export HOMEBREW_BREWFILE_ON_REQUEST=1
