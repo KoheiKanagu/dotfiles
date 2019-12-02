@@ -15,6 +15,7 @@ export LDFLAGS="-L/usr/local/opt/libffi/lib"
 export PATH="$HOME/.fastlane/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/icu4c/lib"
 export CPPFLAGS="-I/usr/local/opt/icu4c/include" 
+export PATH="/usr/local/Cellar/flutter/bin/cache/dart-sdk/bin:$PATH"
 
 # functions
 function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
