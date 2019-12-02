@@ -30,6 +30,7 @@ cask lyrics-master
 cask slack
 cask the-unarchiver
 cask yacreader
+cask fastlane
 
 tap beeftornado/rmtree
 brew brew-rmtree
