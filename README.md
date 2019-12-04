@@ -21,7 +21,7 @@ nvm install 8 -lts && nvm install 11 -lts
 ln -s /usr/local/bin/python3 /usr/local/bin/python
 ```
 
-### Firebase
+### [Firebase](https://firebase.google.com/docs/cli?hl=ja#install-cli-mac-linux)
 ```
 curl -sL firebase.tools | bash
 ```
