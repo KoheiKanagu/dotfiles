@@ -15,7 +15,6 @@ brew python
 brew shfmt
 brew wget
 brew zplug
-brew wget
 
 tap homebrew/cask-versions
 cask 1password6
