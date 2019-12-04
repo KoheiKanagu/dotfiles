@@ -12,7 +12,6 @@ fi
 
 # Customize to your needs...
 export LDFLAGS="-L/usr/local/opt/libffi/lib"
-export PATH="$HOME/.fastlane/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/icu4c/lib"
 export CPPFLAGS="-I/usr/local/opt/icu4c/include" 
 export PATH="/usr/local/Cellar/flutter/bin/cache/dart-sdk/bin:$PATH"
@@ -68,3 +67,6 @@ export PATH="$PATH:/usr/local/Cellar/flutter/.pub-cache/bin"
 
 # Android
 export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
+
+# fastlane
+export PATH="$HOME/.fastlane/bin:$PATH"
