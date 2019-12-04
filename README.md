@@ -25,3 +25,11 @@ ln -s /usr/local/bin/python3 /usr/local/bin/python
 ```
 curl -sL firebase.tools | bash
 ```
+
+### [fastlane](https://docs.fastlane.tools/#getting-started)
+```
+sudo gem install fastlane -NV
+
+# firebase plugin
+fastlane add_plugin firebase_app_distribution
+```
