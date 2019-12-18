@@ -13,7 +13,7 @@ ln -s ~/.config/brewfile/KoheiKanagu_dotfiles/zprezto/runcoms/zshrc ~/.zshrc
 
 ### node
 ```
-nvm install 8 -lts && nvm install 10 -lts && nvm use 10
+nvm install 8 -lts && nvm install 10 -lts && nvm use 10 && nvm alias default node
 ```
 
 ### Python
