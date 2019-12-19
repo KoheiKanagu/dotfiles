@@ -13,9 +13,9 @@ brew peco
 brew pipenv
 brew python
 brew shfmt
+brew terminal-notifier
 brew wget
 brew zplug
-brew terminal-notifier
 
 tap homebrew/cask-versions
 cask 1password6
