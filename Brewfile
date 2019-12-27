@@ -11,6 +11,7 @@ brew nvm
 brew openjdk@11
 brew peco
 brew pipenv
+brew protobuf
 brew python
 brew shfmt
 brew terminal-notifier
