@@ -3,6 +3,7 @@
 
 tap homebrew/core
 brew carthage
+brew clang-format
 brew cocoapods
 brew gradle
 brew jq
@@ -11,7 +12,6 @@ brew nvm
 brew openjdk@11
 brew peco
 brew pipenv
-brew protobuf
 brew python
 brew shfmt
 brew terminal-notifier
