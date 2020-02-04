@@ -3,13 +3,20 @@
 
 ## manual install
 
-- [macOS用パッケージマネージャー — Homebrew](https://brew.sh/index_ja)
-- [sorin\-ionescu/prezto: The configuration framework for Zsh](https://github.com/sorin-ionescu/prezto)
+### [macOS用パッケージマネージャー — Homebrew](https://brew.sh/index_ja)
+
+### [sorin\-ionescu/prezto: The configuration framework for Zsh](https://github.com/sorin-ionescu/prezto)
 ```
 rm ~/.zshrc
 ln -s ~/.config/brewfile/KoheiKanagu_dotfiles/zprezto/runcoms/zshrc ~/.zshrc
 ```
-- [macOS install \- Flutter](https://flutter.dev/docs/get-started/install/macos)
+### [macOS install \- Flutter](https://flutter.dev/docs/get-started/install/macos)
+```
+git clone https://github.com/flutter/flutter.git /usr/local/Cellar/flutter
+/usr/local/Cellar/flutter/bin/flutter channel beta
+/usr/local/Cellar/flutter/bin/flutter precache
+/usr/local/Cellar/flutter/bin/flutter doctor
+```
 
 ### node
 ```
