@@ -46,3 +46,10 @@ fastlane add_plugin firebase_app_distribution
 ```
 chrome://apps/
 ```
+
+### Git
+
+```
+git config --global user.name "KoheiKanagu"
+git config --global user.email "k.kanagu@novars.jp"
+```
