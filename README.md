@@ -40,3 +40,9 @@ sudo gem install fastlane -NV
 # firebase plugin
 fastlane add_plugin firebase_app_distribution
 ```
+
+### Google Chrome Extensions
+
+```
+chrome://apps/
+```
