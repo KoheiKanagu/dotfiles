@@ -53,3 +53,5 @@ chrome://apps/
 git config --global user.name "KoheiKanagu"
 git config --global user.email "k.kanagu@novars.jp"
 ```
+
+### [rmate](https://github.com/aurora/rmate#quick-install)
