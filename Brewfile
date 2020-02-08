@@ -17,6 +17,7 @@ brew shfmt
 brew terminal-notifier
 brew wget
 brew zplug
+brew gifski
 
 tap homebrew/cask-versions
 cask 1password6
@@ -53,6 +54,7 @@ cask iterm2
 cask postman
 cask sourcetree
 cask visual-studio-code
+cask mongodb-compass
 
 # App Store applications
 appstore 1176895641 Spark (2.3.15)
