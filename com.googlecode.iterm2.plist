@@ -4,6 +4,8 @@
 <dict>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -123,8 +125,14 @@
 	<true/>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/.config/brewfile/KoheiKanagu_dotfiles</string>
+	<key>NSNavLastUserSetHideExtensionButtonState</key>
+	<false/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{799, 448}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{841, 448}</string>
+	<key>NSNavPanelExpandedStateForSaveMode</key>
+	<true/>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -167,13 +175,17 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 163 224 275 0 0 1920 1057 </string>
+	<string>0 163 224 275 0 0 2560 1417 </string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>560 476 799 448 0 0 1920 1057 </string>
+	<string>880 726 799 448 0 0 2560 1417 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>887 953 400 129 0 0 2560 1417 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>970 768 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>635 533 570 452 0 0 1920 1057 </string>
+	<string>1280 0 1280 1417 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>691 338 720 452 0 0 1920 1057 </string>
+	<string>814 496 720 452 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -811,34 +823,35 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
+		<string>3.3.7</string>
 		<string>3.3.8</string>
-	</array>
-	<key>NoSyncBFPFavorites</key>
-	<array>
-		<string>JetBrains Mono</string>
+		<string>3.3.9</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
-		<string>DIN Condensed</string>
-		<string>JetBrains Mono Medium</string>
-		<string>JetBrains Mono ExtraBold</string>
-		<string>JetBrains Mono</string>
+		<string>Monaco</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1920, 1080}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{708, 837}</string>
+		<string>{1206, 1125}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
-	<string>6CA7713F-E38D-4C70-A512-96ED7F8B46F0</string>
+	<string>C89182AD-35CE-4855-8EED-626BC6A80E8C</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>2</integer>
+	<integer>12</integer>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>602666942.71953797</real>
+	<real>600017036.77133298</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -1187,6 +1200,22 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.terminalWindowName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.terminalIconName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>currentTab</string>
@@ -1529,21 +1558,65 @@
 			</dict>
 		</array>
 	</dict>
+	<key>NoSyncSavePanelSavedSettings_SaveProfile</key>
+	<dict>
+		<key>Initial Directory</key>
+		<string>/Users/kingu/.config/brewfile/KoheiKanagu_dotfiles/iTerm</string>
+	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
-	<real>602494142.71935296</real>
+	<real>596262430.37727702</real>
+	<key>PointerActions</key>
+	<dict>
+		<key>Button,1,1,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kContextMenuPointerAction</string>
+		</dict>
+		<key>Button,2,1,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kPasteFromClipboardPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeDown,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kPrevWindowPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeLeft,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kPrevTabPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeRight,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kNextTabPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeUp,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kNextWindowPointerAction</string>
+		</dict>
+	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/kkanagu/.config/brewfile/KoheiKanagu_dotfiles</string>
+	<string>/Users/kingu/.config/brewfile/KoheiKanagu_dotfiles</string>
+	<key>SUAutomaticallyUpdate</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=13</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=51</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-04T07:45:58Z</date>
+	<date>2020-03-31T03:55:23Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>1150274086</integer>
+	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SoundForEsc</key>
 	<false/>
@@ -1558,6 +1631,6 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.8</string>
+	<string>3.3.9</string>
 </dict>
 </plist>
