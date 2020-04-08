@@ -5,8 +5,11 @@ tap homebrew/core
 brew carthage
 brew clang-format
 brew cocoapods
+brew gifski
+brew go
 brew gradle
 brew jq
+brew lcov
 brew mas
 brew nvm
 brew openjdk@11
@@ -17,7 +20,6 @@ brew shfmt
 brew terminal-notifier
 brew wget
 brew zplug
-brew gifski
 
 tap homebrew/cask-versions
 cask 1password6
@@ -30,9 +32,9 @@ cask dash
 cask google-chrome
 cask iina
 cask lyrics-master
-cask slack
-cask the-unarchiver
-cask yacreader
+cask postman
+cask sourcetree
+cask visual-studio-code
 
 tap beeftornado/rmtree
 brew brew-rmtree
@@ -51,10 +53,10 @@ cask coteditor
 cask dropbox
 cask hyperswitch
 cask iterm2
-cask postman
-cask sourcetree
-cask visual-studio-code
 cask mongodb-compass
+cask slack
+cask the-unarchiver
+cask yacreader
 
 # App Store applications
 appstore 1176895641 Spark (2.3.15)
