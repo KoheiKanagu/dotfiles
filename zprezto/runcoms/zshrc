@@ -75,4 +75,4 @@ export PATH=$PATH:./node_modules/.bin
 
 # go
 export GOPATH=~/go
-export PATH=${PATH}:~/go/bin
+export PATH=$PATH:$HOME/go/bin

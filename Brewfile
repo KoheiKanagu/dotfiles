@@ -5,6 +5,7 @@ tap homebrew/core
 brew carthage
 brew clang-format
 brew cocoapods
+brew gdrive
 brew gifski
 brew go
 brew gradle
