@@ -2,9 +2,11 @@
 # tap repositories and their packages
 
 tap homebrew/core
+brew bat
 brew carthage
 brew clang-format
 brew cocoapods
+brew exa
 brew gifski
 brew go
 brew gradle
@@ -13,12 +15,14 @@ brew lcov
 brew mas
 brew nvm
 brew openjdk@11
+brew openssl@1.1
 brew peco
 brew pipenv
 brew python
 brew shfmt
 brew terminal-notifier
 brew wget
+brew wimlib
 brew zplug
 
 tap homebrew/cask-versions
@@ -42,8 +46,16 @@ brew brew-rmtree
 tap code-hex/pget
 brew pget
 
+tap mongodb/brew
+
 tap rcmdnk/file
 brew brew-file
+
+tap zkokaja/brewlet
+cask brewlet
+
+# Other Homebrew packages
+brew mongodb-community@4.2
 
 # Other Cask applications
 cask adoptopenjdk8
