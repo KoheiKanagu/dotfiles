@@ -11,11 +11,10 @@ rm ~/.zshrc
 ln -s ~/.config/brewfile/KoheiKanagu_dotfiles/zprezto/runcoms/zshrc ~/.zshrc
 ```
 ### [macOS install \- Flutter](https://flutter.dev/docs/get-started/install/macos)
-```
-git clone https://github.com/flutter/flutter.git /usr/local/Cellar/flutter
-/usr/local/Cellar/flutter/bin/flutter channel beta
-/usr/local/Cellar/flutter/bin/flutter precache
-/usr/local/Cellar/flutter/bin/flutter doctor
+https://gist.github.com/KoheiKanagu/9917fd02e5b33afd9f072afc42a73de1
+
+```bash
+curl https://gist.githubusercontent.com/KoheiKanagu/9917fd02e5b33afd9f072afc42a73de1/raw/257cc465e70ebc4d23bdd44720ad888142198dd1/flutterSertupWithFvm.sh | sh
 ```
 
 ### node
