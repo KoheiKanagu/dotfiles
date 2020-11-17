@@ -181,13 +181,13 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>880 726 799 448 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>818 955 400 129 0 0 2560 1417 </string>
+	<string>1011 895 400 129 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>970 768 620 392 0 0 2560 1417 </string>
+	<string>3754 599 620 392 2560 -358 3008 1669 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1280 0 1280 1417 0 0 2560 1417 </string>
+	<string>716 245 1714 559 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>814 496 720 452 0 0 2560 1417 </string>
+	<string>3052 711 720 377 2560 -358 3008 1669 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -825,9 +825,11 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.7</string>
-		<string>3.3.8</string>
 		<string>3.3.9</string>
+		<string>3.3.8</string>
+		<string>3.3.11</string>
+		<string>3.3.7</string>
+		<string>3.3.12</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -845,12 +847,12 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{1206, 1125}</string>
+		<string>{1185, 1125}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>C89182AD-35CE-4855-8EED-626BC6A80E8C</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>23</integer>
+	<integer>42</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1620,13 +1622,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-06-11T06:30:52Z</date>
+	<date>2020-11-17T09:22:23Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
-	<integer>1558644324</integer>
+	<integer>2152239675</integer>
 	<key>SUUpdateRelaunchingMarker</key>
-	<true/>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>StatusBarPosition</key>
@@ -1640,6 +1642,6 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.9</string>
+	<string>3.3.12</string>
 </dict>
 </plist>
