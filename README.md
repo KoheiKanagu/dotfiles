@@ -77,5 +77,5 @@ git config --global user.email "kanagu@kingu.dev"
 `Configure → Settings Repocitory` に以下を入力
 
 ```
-git@github.com:KoheiKanagu/AndroidStudioSettings.git
+https://github.com/KoheiKanagu/AndroidStudioSettings.git
 ```
