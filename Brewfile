@@ -53,10 +53,10 @@ cask iina
 cask lyrics-master
 cask slack
 cask visual-studio-code
+cask fork
 
 # App Store applications
 appstore 1388020431 DevCleaner (2.1.0)
-appstore 1351639930 Gifski (2.11.0)
 appstore 1429033973 RunCat (8.5)
 appstore 1176895641 Spark (2.9.10)
 appstore 1450874784 Transporter (1.1.1)
