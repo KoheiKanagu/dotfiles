@@ -63,12 +63,6 @@ ln -s /usr/local/bin/python3 /usr/local/bin/python
 curl -sL firebase.tools | bash
 ```
 
-### Google Chrome Extensions
-
-```sh
-chrome://apps/
-```
-
 ### Git
 
 ```sh
