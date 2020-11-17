@@ -13,22 +13,32 @@ brew nvm
 brew openjdk@11
 brew peco
 brew pipenv
+brew python@3.9
 brew unrar
 brew wget
 brew zplug
 
 tap homebrew/cask-versions
 cask 1password6
+cask adoptopenjdk8
 
 tap homebrew/cask
 cask amazon-photos
+cask android-studio
 cask appcleaner
+cask bettertouchtool
 cask clipy
+cask coteditor
 cask dropbox
+cask google-chrome
 cask hyperswitch
+cask iina
 cask iterm2
+cask lyrics-master
 cask postman
+cask slack
 cask the-unarchiver
+cask visual-studio-code
 cask yacreader
 
 tap beeftornado/rmtree
@@ -42,17 +52,6 @@ brew brew-file
 
 tap zkokaja/brewlet
 cask brewlet
-
-# Other Cask applications
-cask adoptopenjdk8
-cask android-studio
-cask bettertouchtool
-cask coteditor
-cask google-chrome
-cask iina
-cask lyrics-master
-cask slack
-cask visual-studio-code
 
 # App Store applications
 appstore 1388020431 DevCleaner (2.1.0)
