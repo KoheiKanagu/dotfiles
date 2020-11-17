@@ -2,6 +2,15 @@
 
 ## manual install
 
+### ssh
+
+```sh
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+```
+https://github.com/settings/ssh/new
+
+
 ### [macOS用パッケージマネージャー — Homebrew](https://brew.sh/index_ja)
 
 HomebrewインストールしたらBrewfileを取ってくる
