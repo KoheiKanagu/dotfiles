@@ -17,11 +17,9 @@ HomebrewインストールしたらBrewfileを取ってくる
 
 ```sh
 brew install rcmdnk/file/brew-file
-brew file init
+brew file install
 # リポジトリに以下入力
 # https://github.com/KoheiKanagu/dotfiles
-
-brew file install
 ```
 
 ### iTerm2
