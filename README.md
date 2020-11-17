@@ -74,7 +74,7 @@ git config --global user.email "kanagu@kingu.dev"
 
 ### Android Studio
 
-`File → Manage IDE Settings → Setting Repository` に以下を入力
+`Configure → Settings Repocitory` に以下を入力
 
 ```
 git@github.com:KoheiKanagu/AndroidStudioSettings.git
