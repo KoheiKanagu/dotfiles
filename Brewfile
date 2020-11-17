@@ -3,26 +3,18 @@
 
 tap homebrew/core
 brew bat
-brew carthage
-brew clang-format
 brew cocoapods
 brew exa
-brew gifski
-brew go
 brew gradle
 brew jq
 brew lcov
 brew mas
 brew nvm
 brew openjdk@11
-brew openssl@1.1
 brew peco
 brew pipenv
-brew python
-brew shfmt
-brew terminal-notifier
+brew unrar
 brew wget
-brew wimlib
 brew zplug
 
 tap homebrew/cask-versions
@@ -32,13 +24,12 @@ tap homebrew/cask
 cask amazon-photos
 cask appcleaner
 cask clipy
-cask dash
-cask google-chrome
-cask iina
-cask lyrics-master
+cask dropbox
+cask hyperswitch
+cask iterm2
 cask postman
-cask sourcetree
-cask visual-studio-code
+cask the-unarchiver
+cask yacreader
 
 tap beeftornado/rmtree
 brew brew-rmtree
@@ -46,30 +37,27 @@ brew brew-rmtree
 tap code-hex/pget
 brew pget
 
-tap mongodb/brew
-
-tap rcmdnk/file
-brew brew-file
-
 tap zkokaja/brewlet
 cask brewlet
 
 # Other Homebrew packages
-brew mongodb-community@4.2
+brew brew-file
 
 # Other Cask applications
 cask adoptopenjdk8
 cask android-studio
 cask bettertouchtool
 cask coteditor
-cask dropbox
-cask hyperswitch
-cask iterm2
-cask mongodb-compass
+cask google-chrome
+cask iina
+cask lyrics-master
 cask slack
-cask the-unarchiver
-cask yacreader
+cask visual-studio-code
 
 # App Store applications
-appstore 1176895641 Spark (2.3.15)
-appstore 497799835 Xcode (11.2.1)
+appstore 1388020431 DevCleaner (2.1.0)
+appstore 1351639930 Gifski (2.11.0)
+appstore 1429033973 RunCat (8.5)
+appstore 1176895641 Spark (2.9.10)
+appstore 1450874784 Transporter (1.1.1)
+appstore 497799835 Xcode (12.0.1)
