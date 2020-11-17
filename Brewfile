@@ -37,11 +37,11 @@ brew brew-rmtree
 tap code-hex/pget
 brew pget
 
+tap rcmdnk/file
+brew brew-file
+
 tap zkokaja/brewlet
 cask brewlet
-
-# Other Homebrew packages
-brew brew-file
 
 # Other Cask applications
 cask adoptopenjdk8
@@ -53,7 +53,6 @@ cask iina
 cask lyrics-master
 cask slack
 cask visual-studio-code
-cask fork
 
 # App Store applications
 appstore 1388020431 DevCleaner (2.1.0)
