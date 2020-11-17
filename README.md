@@ -2,16 +2,24 @@
 
 ## manual install
 
+### ssh
+
+```sh
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+```
+https://github.com/settings/ssh/new
+
+
 ### [macOS用パッケージマネージャー — Homebrew](https://brew.sh/index_ja)
 
 HomebrewインストールしたらBrewfileを取ってくる
 
 ```sh
-brew file init
+brew install rcmdnk/file/brew-file
+brew file install
 # リポジトリに以下入力
 # https://github.com/KoheiKanagu/dotfiles
-
-brew file install
 ```
 
 ### iTerm2
