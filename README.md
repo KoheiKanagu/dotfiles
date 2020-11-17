@@ -71,3 +71,11 @@ git config --global user.email "kanagu@kingu.dev"
 ```
 
 ### [rmate](https://github.com/aurora/rmate#quick-install)
+
+### Android Studio
+
+`File → Manage IDE Settings → Setting Repository` に以下を入力
+
+```
+git@github.com:KoheiKanagu/AndroidStudioSettings.git
+```
