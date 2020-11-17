@@ -41,6 +41,7 @@ ln -s ~/.config/brewfile/KoheiKanagu_dotfiles/zprezto/runcoms/zshrc ~/.zshrc
 https://gist.github.com/KoheiKanagu/9917fd02e5b33afd9f072afc42a73de1
 
 ```sh
+cd ~/Downloads/
 curl https://gist.githubusercontent.com/KoheiKanagu/9917fd02e5b33afd9f072afc42a73de1/raw/flutterSertupWithFvm.sh | sh
 ```
 
