@@ -53,6 +53,9 @@ brew brew-file
 tap zkokaja/brewlet
 cask brewlet
 
+# Other Homebrew packages
+brew fork
+
 # App Store applications
 appstore 1388020431 DevCleaner (2.1.0)
 appstore 1429033973 RunCat (8.5)
