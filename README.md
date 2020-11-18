@@ -79,3 +79,9 @@ git config --global user.email "kanagu@kingu.dev"
 ```
 https://github.com/KoheiKanagu/AndroidStudioSettings.git
 ```
+
+### Finder
+
+隠しファイルを表示は
+
+command + shift + .
