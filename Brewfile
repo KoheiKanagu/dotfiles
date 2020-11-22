@@ -30,6 +30,7 @@ cask bettertouchtool
 cask clipy
 cask coteditor
 cask dropbox
+cask fork
 cask google-chrome
 cask hyperswitch
 cask iina
@@ -53,12 +54,12 @@ brew brew-file
 tap zkokaja/brewlet
 cask brewlet
 
-# Other Homebrew packages
-brew fork
-
 # App Store applications
-appstore 1388020431 DevCleaner (2.1.0)
+appstore 1388020431 DevCleaner (2.2.0)
+appstore 409183694 Keynote (10.3.5)
+appstore 409203825 Numbers (10.3.5)
+appstore 409201541 Pages (10.3.5)
 appstore 1429033973 RunCat (8.5)
 appstore 1176895641 Spark (2.9.10)
-appstore 1450874784 Transporter (1.1.1)
-appstore 497799835 Xcode (12.0.1)
+appstore 1450874784 Transporter (1.2)
+appstore 497799835 Xcode (12.2)
