@@ -73,6 +73,6 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 # node
 export PATH=$PATH:./node_modules/.bin
 
-# go
-export GOPATH=~/go
-export PATH=$PATH:$HOME/go/bin
+# alias
+alias ls='exa'
+alias cat='bat'
