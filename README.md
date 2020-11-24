@@ -86,6 +86,9 @@ https://github.com/KoheiKanagu/AndroidStudioSettings.git
 
 ### Finder
 
-隠しファイルを表示は
+隠しファイルを表示
 
-command + shift + .
+```
+defaults write com.apple.finder AppleShowAllFiles TRUE
+killall Finder
+```
