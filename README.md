@@ -48,7 +48,8 @@ curl https://gist.githubusercontent.com/KoheiKanagu/9917fd02e5b33afd9f072afc42a7
 ### node
 
 ```sh
-nvm install 8 -lts && nvm install 10 -lts && nvm use 10 && nvm alias default node
+# dubnium == v10
+nvm install --lts=dubnium && nvm alias default node
 ```
 
 ### Python
