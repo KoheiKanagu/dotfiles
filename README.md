@@ -69,6 +69,9 @@ curl -sL firebase.tools | bash
 ```sh
 git config --global user.name "KoheiKanagu"
 git config --global user.email "kanagu@kingu.dev"
+
+gi macos > ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
 ```
 
 ### [rmate](https://github.com/aurora/rmate#quick-install)
