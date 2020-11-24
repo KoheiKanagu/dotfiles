@@ -49,7 +49,7 @@ curl https://gist.githubusercontent.com/KoheiKanagu/9917fd02e5b33afd9f072afc42a7
 
 ```sh
 # dubnium == v10
-nvm install --lts=dubnium && nvm alias default node
+nvm install --lts=Erbium && nvm alias default node
 ```
 
 ### Python
