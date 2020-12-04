@@ -76,3 +76,6 @@ export PATH=$PATH:./node_modules/.bin
 # alias
 alias ls='exa'
 alias cat='bat'
+
+# Firebase
+export FIRESTORE_EMULATOR_HOST="localhost:8080"
