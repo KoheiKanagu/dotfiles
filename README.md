@@ -6,7 +6,7 @@
 
 ```sh
 ssh-keygen
-cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 https://github.com/settings/ssh/new
 
