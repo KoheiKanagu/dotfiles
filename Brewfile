@@ -56,10 +56,7 @@ cask brewlet
 
 # App Store applications
 appstore 1388020431 DevCleaner (2.2.0)
-appstore 409183694 Keynote (10.3.5)
-appstore 409203825 Numbers (10.3.5)
-appstore 409201541 Pages (10.3.5)
-appstore 1429033973 RunCat (8.5)
+appstore 1429033973 RunCat (8.8)
 appstore 1176895641 Spark (2.9.10)
 appstore 1450874784 Transporter (1.2)
 appstore 497799835 Xcode (12.2)
