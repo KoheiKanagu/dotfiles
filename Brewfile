@@ -2,6 +2,7 @@
 # tap repositories and their packages
 
 tap homebrew/core
+brew Warning: Treating cocoapods as a formula. For the cask, use homebrew/cask/cocoapods
 brew bat
 brew cocoapods
 brew exa
@@ -14,7 +15,7 @@ brew openjdk@11
 brew peco
 brew pipenv
 brew python@3.9
-brew unrar
+brew smartmontools
 brew wget
 brew zplug
 
@@ -27,6 +28,7 @@ cask amazon-photos
 cask android-studio
 cask appcleaner
 cask bettertouchtool
+cask brewlet
 cask clipy
 cask coteditor
 cask dropbox
@@ -52,7 +54,9 @@ tap rcmdnk/file
 brew brew-file
 
 tap zkokaja/brewlet
-cask brewlet
+
+# Other Homebrew packages
+brew unrar
 
 # App Store applications
 appstore 1388020431 DevCleaner (2.2.0)
