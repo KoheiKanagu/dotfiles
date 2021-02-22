@@ -79,3 +79,14 @@ alias cat='bat'
 
 # Firebase
 export FIRESTORE_EMULATOR_HOST="localhost:8080"
+
+# [Finderで開いてるディレクトリへcdするコマンド \- Qiita](https://qiita.com/ucan-lab/items/c4b3466f53eac6f1a8b7)
+cdf() {
+  target=`osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)'`
+  if [ "$target" != "" ]; then
+    cd "$target"; pwd
+  else
+    echo 'No Finder window found' >&2
+  fi
+}
+alias f='open .'

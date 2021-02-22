@@ -2,7 +2,6 @@
 # tap repositories and their packages
 
 tap homebrew/core
-brew Warning: Treating cocoapods as a formula. For the cask, use homebrew/cask/cocoapods
 brew bat
 brew cocoapods
 brew exa
@@ -60,7 +59,8 @@ brew unrar
 
 # App Store applications
 appstore 1388020431 DevCleaner (2.2.0)
-appstore 1429033973 RunCat (8.8)
-appstore 1176895641 Spark (2.9.10)
+appstore 472226235 LanScan (6.5.5)
+appstore 1429033973 RunCat (8.9)
+appstore 1176895641 Spark (2.9.13)
 appstore 1450874784 Transporter (1.2)
 appstore 497799835 Xcode (12.2)
