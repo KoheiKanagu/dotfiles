@@ -55,13 +55,10 @@ brew brew-file
 
 tap zkokaja/brewlet
 
-# Other Homebrew packages
-brew unrar
-
 # App Store applications
 appstore 1388020431 DevCleaner (2.2.0)
 appstore 472226235 LanScan (6.5.5)
-appstore 1429033973 RunCat (8.9)
-appstore 1176895641 Spark (2.9.13)
+appstore 1429033973 RunCat (9.0)
+appstore 1176895641 Spark (2.9.17)
 appstore 1450874784 Transporter (1.2)
-appstore 497799835 Xcode (12.2)
+appstore 497799835 Xcode (12.4)
