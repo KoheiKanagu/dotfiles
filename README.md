@@ -92,3 +92,9 @@ https://github.com/KoheiKanagu/AndroidStudioSettings.git
 defaults write com.apple.finder AppleShowAllFiles TRUE
 killall Finder
 ```
+
+### gem
+
+```
+gem install cocoapods fastlane
+```

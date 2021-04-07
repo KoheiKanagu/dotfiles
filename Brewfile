@@ -3,9 +3,7 @@
 
 tap homebrew/core
 brew bat
-brew cocoapods
 brew exa
-brew fastlane
 brew gradle
 brew jq
 brew lcov
