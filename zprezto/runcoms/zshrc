@@ -78,9 +78,6 @@ export PATH=$PATH:./node_modules/.bin
 alias ls='exa'
 alias cat='bat'
 
-# Firebase
-export FIRESTORE_EMULATOR_HOST="localhost:8080"
-
 # [Finderで開いてるディレクトリへcdするコマンド \- Qiita](https://qiita.com/ucan-lab/items/c4b3466f53eac6f1a8b7)
 cdf() {
   target=$(osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)')
@@ -96,3 +93,7 @@ alias f='open .'
 # gem
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
+
+# gcloud
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
