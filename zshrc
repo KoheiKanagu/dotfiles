@@ -84,7 +84,3 @@ cdf() {
 # gem
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
-
-# gcloud
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
