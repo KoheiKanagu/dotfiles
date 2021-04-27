@@ -68,6 +68,7 @@ export PATH=$PATH:./node_modules/.bin
 # alias
 alias ls='exa'
 alias cat='bat'
+alias ll='ls -lah'
 
 # [Finderで開いてるディレクトリへcdするコマンド \- Qiita](https://qiita.com/ucan-lab/items/c4b3466f53eac6f1a8b7)
 cdf() {
