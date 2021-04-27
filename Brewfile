@@ -22,7 +22,6 @@ brew zplug
 
 tap homebrew/cask-fonts
 cask font-fira-code-nerd-font
-cask font-jetbrains-mono
 
 tap homebrew/cask-versions
 cask 1password6
