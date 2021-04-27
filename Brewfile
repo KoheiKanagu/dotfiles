@@ -33,7 +33,6 @@ cask coteditor
 cask dropbox
 cask fork
 cask google-chrome
-cask google-cloud-sdk
 cask hyperswitch
 cask iina
 cask iterm2
