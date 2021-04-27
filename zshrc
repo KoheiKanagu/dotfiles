@@ -1,7 +1,7 @@
 # starship
 eval "$(starship init zsh)"
 
-# 
+#
 export LDFLAGS="-L/usr/local/opt/icu4c/lib"
 export CPPFLAGS="-I/usr/local/opt/icu4c/include"
 
@@ -10,9 +10,9 @@ function gi() { curl -sLw n https://www.gitignore.io/api/$@; }
 
 # peco
 function peco-history-selection() {
-  BUFFER=$(history 1 | sort -k1,1nr | perl -ne 'BEGIN { my @lines = (); } s/^\s*\d+\*?\s*//; $in=$_; if (!(grep {$in eq $_} @lines)) { push(@lines, $in); print $in; }' | peco --query "$LBUFFER" | sed 's/\\n/\n/')
-  CURSOR=${#BUFFER}
-  zle reset-prompt
+	BUFFER=$(history 1 | sort -k1,1nr | perl -ne 'BEGIN { my @lines = (); } s/^\s*\d+\*?\s*//; $in=$_; if (!(grep {$in eq $_} @lines)) { push(@lines, $in); print $in; }' | peco --query "$LBUFFER" | sed 's/\\n/\n/')
+	CURSOR=${#BUFFER}
+	zle reset-prompt
 }
 zle -N peco-history-selection
 bindkey '^R' peco-history-selection
@@ -26,11 +26,11 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
 ## インストールする
 if ! zplug check --verbose; then
-  printf "Install? [y/N]: "
-  if read -q; then
-    echo
-    zplug install
-  fi
+	printf "Install? [y/N]: "
+	if read -q; then
+		echo
+		zplug install
+	fi
 fi
 zplug load
 
@@ -46,7 +46,7 @@ export PATH=${JAVA_HOME}/bin:${PATH}
 # homebrew
 export HOMEBREW_BREWFILE_ON_REQUEST=1
 if [ -f $(brew --prefix)/etc/brew-wrap ]; then
-  source $(brew --prefix)/etc/brew-wrap
+	source $(brew --prefix)/etc/brew-wrap
 fi
 
 # Flutter
@@ -72,13 +72,13 @@ alias f='open .'
 
 # [Finderで開いてるディレクトリへcdするコマンド \- Qiita](https://qiita.com/ucan-lab/items/c4b3466f53eac6f1a8b7)
 cdf() {
-  target=$(osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)')
-  if [ "$target" != "" ]; then
-    cd "$target"
-    pwd
-  else
-    echo 'No Finder window found' >&2
-  fi
+	target=$(osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)')
+	if [ "$target" != "" ]; then
+		cd "$target"
+		pwd
+	else
+		echo 'No Finder window found' >&2
+	fi
 }
 
 # gem
