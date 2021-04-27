@@ -16,9 +16,12 @@ brew pipenv
 brew python@3.9
 brew shfmt
 brew smartmontools
+brew starship
 brew wget
 brew zplug
 
+tap homebrew/cask-fonts
+cask font-fira-code-nerd-font
 tap homebrew/cask-versions
 cask 1password6
 cask adoptopenjdk8
