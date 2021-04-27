@@ -4,6 +4,7 @@
 tap homebrew/core
 brew bat
 brew exa
+brew glances
 brew gradle
 brew jq
 brew lcov
