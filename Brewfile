@@ -13,6 +13,7 @@ brew openjdk@11
 brew peco
 brew pipenv
 brew python@3.9
+brew shfmt
 brew smartmontools
 brew wget
 brew zplug
@@ -32,6 +33,7 @@ cask coteditor
 cask dropbox
 cask fork
 cask google-chrome
+cask google-cloud-sdk
 cask hyperswitch
 cask iina
 cask iterm2
@@ -54,9 +56,9 @@ brew brew-file
 tap zkokaja/brewlet
 
 # App Store applications
+appstore 1037126344 Apple Configurator 2 (2.13.3)
 appstore 1388020431 DevCleaner (2.2.0)
-appstore 472226235 LanScan (6.5.5)
 appstore 1429033973 RunCat (9.0)
-appstore 1176895641 Spark (2.9.17)
-appstore 1450874784 Transporter (1.2)
+appstore 1176895641 Spark (2.9.19)
+appstore 1450874784 Transporter (1.2.1)
 appstore 497799835 Xcode (12.4)
