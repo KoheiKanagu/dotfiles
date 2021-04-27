@@ -1,8 +1,7 @@
 # starship
 eval "$(starship init zsh)"
 
-# Customize to your needs...
-export LDFLAGS="-L/usr/local/opt/libffi/lib"
+# 
 export LDFLAGS="-L/usr/local/opt/icu4c/lib"
 export CPPFLAGS="-I/usr/local/opt/icu4c/include"
 
