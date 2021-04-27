@@ -69,6 +69,7 @@ export PATH=$PATH:./node_modules/.bin
 alias ls='exa'
 alias cat='bat'
 alias ll='ls -lah'
+alias f='open .'
 
 # [Finderで開いてるディレクトリへcdするコマンド \- Qiita](https://qiita.com/ucan-lab/items/c4b3466f53eac6f1a8b7)
 cdf() {
@@ -80,7 +81,6 @@ cdf() {
     echo 'No Finder window found' >&2
   fi
 }
-alias f='open .'
 
 # gem
 export GEM_HOME=$HOME/.gem
