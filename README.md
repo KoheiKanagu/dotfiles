@@ -30,11 +30,11 @@ brew file install
 /Users/kingu/.config/brewfile/KoheiKanagu_dotfiles
 ```
 
-### [sorin\-ionescu/prezto: The configuration framework for Zsh](https://github.com/sorin-ionescu/prezto)
+### zsh
 
 ```sh
 rm ~/.zshrc
-ln -s ~/.config/brewfile/KoheiKanagu_dotfiles/zprezto/runcoms/zshrc ~/.zshrc
+ln -s ~/.config/brewfile/KoheiKanagu_dotfiles/zshrc ~/.zshrc
 ```
 
 ### [macOS install \- Flutter](https://flutter.dev/docs/get-started/install/macos)

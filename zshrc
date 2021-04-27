@@ -1,8 +1,3 @@
-# Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
-
 # Customize to your needs...
 export LDFLAGS="-L/usr/local/opt/libffi/lib"
 export LDFLAGS="-L/usr/local/opt/icu4c/lib"
