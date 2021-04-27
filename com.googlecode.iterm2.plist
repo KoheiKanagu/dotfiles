@@ -10,19 +10,23 @@
 	<real>11</real>
 	<key>Default Bookmark Guid</key>
 	<string>BD5DD9A6-E83D-48CB-BE81-1E810BEBA0A0</string>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<true/>
+	<key>EnableAPIServer</key>
+	<false/>
 	<key>GlobalKeyMap</key>
 	<dict>
 		<key>0x19-0x60000</key>
 		<dict>
 			<key>Action</key>
-			<integer>2</integer>
+			<integer>39</integer>
 			<key>Text</key>
 			<string></string>
 		</dict>
 		<key>0x9-0x40000</key>
 		<dict>
 			<key>Action</key>
-			<integer>0</integer>
+			<integer>32</integer>
 			<key>Text</key>
 			<string></string>
 		</dict>
@@ -689,7 +693,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>JetBrainsMono-Regular 11</string>
+			<string>JetBrainsMono-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -756,8 +760,10 @@
 	</array>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
-	<key>OpenNoWindowsAtStartup</key>
+	<key>OpenBookmark</key>
 	<false/>
+	<key>OpenNoWindowsAtStartup</key>
+	<true/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -791,6 +797,8 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
+	<key>SmartPlacement</key>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>StatusBarPosition</key>
