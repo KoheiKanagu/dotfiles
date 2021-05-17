@@ -3,6 +3,7 @@
 
 tap homebrew/core
 brew bat
+brew dust
 brew exa
 brew glances
 brew gradle
@@ -26,6 +27,8 @@ cask font-fira-code-nerd-font
 tap homebrew/cask-versions
 cask 1password6
 cask adoptopenjdk8
+
+tap homebrew/services
 
 tap homebrew/cask
 cask amazon-photos
@@ -60,9 +63,9 @@ brew brew-file
 tap zkokaja/brewlet
 
 # App Store applications
-appstore 1037126344 Apple Configurator 2 (2.13.3)
-appstore 1388020431 DevCleaner (2.2.0)
-appstore 1429033973 RunCat (9.0)
-appstore 1176895641 Spark (2.9.19)
-appstore 1450874784 Transporter (1.2.1)
-appstore 497799835 Xcode (12.4)
+appstore 1037126344  Apple Configurator 2  (2.14)
+appstore 1388020431  DevCleaner            (2.2.0)
+appstore 1429033973  RunCat                (9.0)
+appstore 1176895641  Spark                 (2.9.22)
+appstore 1450874784  Transporter           (1.2.1)
+appstore 497799835   Xcode                 (12.5)
