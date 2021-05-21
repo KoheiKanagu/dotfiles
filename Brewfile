@@ -38,7 +38,6 @@ cask bettertouchtool
 cask brewlet
 cask clipy
 cask coteditor
-cask dropbox
 cask fork
 cask google-chrome
 cask hyperswitch
