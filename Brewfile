@@ -67,9 +67,6 @@ brew unrar
 # App Store applications
 appstore 1037126344  Apple Configurator 2  (2.14)
 appstore 1388020431  DevCleaner            (2.2.0)
-appstore 409183694   Keynote               (11.0.1)
-appstore 409203825   Numbers               (11.0)
-appstore 409201541   Pages                 (11.0)
 appstore 1429033973  RunCat                (9.0)
 appstore 1176895641  Spark                 (2.9.23)
 appstore 1450874784  Transporter           (1.2.1)
