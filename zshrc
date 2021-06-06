@@ -69,6 +69,7 @@ alias ls='exa'
 alias cat='bat'
 alias ll='ls -lah'
 alias f='open .'
+alias x86='arch -x86_64 zsh'
 
 # [Finderで開いてるディレクトリへcdするコマンド \- Qiita](https://qiita.com/ucan-lab/items/c4b3466f53eac6f1a8b7)
 cdf() {
