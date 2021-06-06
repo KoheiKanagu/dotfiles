@@ -82,10 +82,6 @@ cdf() {
 	fi
 }
 
-# gem
-export GEM_HOME=$HOME/.gem
-export PATH=$GEM_HOME/bin:$PATH
-
 # zsh
 setopt HIST_IGNORE_DUPS
 setopt HIST_IGNORE_ALL_DUPS
