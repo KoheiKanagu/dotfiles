@@ -3,8 +3,10 @@
 
 tap homebrew/core
 brew bat
+brew cocoapods
 brew dust
 brew exa
+brew fastlane
 brew glances
 brew gradle
 brew jq
@@ -13,8 +15,6 @@ brew mas
 brew nvm
 brew openjdk@11
 brew peco
-brew pipenv
-brew python@3.9
 brew shfmt
 brew smartmontools
 brew starship
@@ -53,9 +53,6 @@ cask yacreader
 tap beeftornado/rmtree
 brew brew-rmtree
 
-tap carlocab/personal
-brew unrar
-
 tap code-hex/pget
 brew pget
 
@@ -68,6 +65,6 @@ tap zkokaja/brewlet
 appstore 1037126344  Apple Configurator 2  (2.14)
 appstore 1388020431  DevCleaner            (2.2.0)
 appstore 1429033973  RunCat                (9.0)
-appstore 1176895641  Spark                 (2.9.22)
+appstore 1176895641  Spark                 (2.9.23)
 appstore 1450874784  Transporter           (1.2.1)
 appstore 497799835   Xcode                 (12.5)
