@@ -18,7 +18,7 @@ fi
 eval "$(starship init zsh)"
 
 # gi
-function gi() { curl -sLw n https://www.gitignore.io/api/$@; }
+function gi() { curl -sLw n https://www.toptal.com/developers/gitignore/api/$@ ;}
 
 # peco
 function peco-history-selection() {
