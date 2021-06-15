@@ -3,12 +3,11 @@ ARCH=$(uname -m)
 # homebrew
 if [[ $ARCH == "arm64" ]]; then
     eval $(/opt/homebrew/bin/brew shellenv)
-    export HOMEBREW_BIN="/opt/homebrew/bin"
+    export PATH="/opt/homebrew/bin:$PATH"
 else
     eval $(/usr/local/bin/brew shellenv)
-    export HOMEBREW_BIN="/usr/local/bin"
+    export PATH="/usr/local/bin:$PATH"
 fi
-export PATH="$HOMEBREW_BIN:$PATH"
 
 export HOMEBREW_BREWFILE_ON_REQUEST=1
 if [ -f $(brew --prefix)/etc/brew-wrap ]; then
