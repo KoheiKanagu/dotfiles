@@ -18,7 +18,7 @@ fi
 eval "$(starship init zsh)"
 
 # gi
-function gi() { curl -sLw n https://www.toptal.com/developers/gitignore/api/$@ ;}
+function gi() { curl -sLw n https://www.toptal.com/developers/gitignore/api/$@; }
 
 # peco
 function peco-history-selection() {
@@ -105,3 +105,10 @@ setopt HIST_IGNORE_SPACE
 setopt HIST_REDUCE_BLANKS
 setopt INC_APPEND_HISTORY
 setopt SHARE_HISTORY
+
+# gcloud
+if [[ $ARCH == "arm64" ]]; then
+else
+    source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+    source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+fi
